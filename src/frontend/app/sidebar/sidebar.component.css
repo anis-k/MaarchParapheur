@@ -1,0 +1,261 @@
+.main-header {
+  height: 205px;
+  overflow: auto;
+}
+
+.sidebar {
+  position: relative;
+  height: 100%;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.sidebar-header {
+  background: #F1F4F4;
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 14px;
+  font-weight: 600;
+  padding-top: 10px;
+}
+
+.sidebar-header-icon {
+  margin-right: 15px;
+  position: relative;
+}
+
+.sidebar-header-icon.notification:after {
+  position: absolute;
+  right: -5px;
+  top: -5px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #e74c3c;
+  content: "";
+}
+
+.sidebar-header-subtitle {
+  color: #9B9B9B;
+}
+
+.sidebar-btn {
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.sidebar .nav {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  overflow-y: scroll;
+  margin-top: 0px;
+  overflow-x: hidden;
+  margin-bottom: 0px;
+  padding: 0px;
+  position: relative;
+}
+
+.sidebar .nav-item {
+  height: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 5px;
+  margin-right: 20px;
+  border-bottom: 1px solid #e6e6e6;
+  margin: 0;
+  padding-left: 30px;
+  cursor: pointer;
+}
+
+.sidebar .nav-item.active {
+  border-left: solid 5px #135F7F;
+  background: rgba(19, 95, 127, 0.14);
+}
+
+.sidebar .nav-item.active:after {
+  position: absolute;
+  right: 10px;
+  content: "";
+  /*width 5px*/
+  height: 60px;
+  background: #F1F4F4;
+}
+
+.sidebar .nav-item-right {
+  text-align: center;
+}
+
+.sidebar .nav-item-left {
+  width: 50px;
+}
+
+.sidebar .nav-item-left .fas,
+.sidebar .nav-item-left .material-icons {
+  background: #f1f4f4;
+  border-radius: 50%;
+  color: #135f7f;
+  font-size: 22px;
+  height: 25px;
+  width: 25px;
+  padding: 10px;
+  margin-right: 10px;
+}
+
+.sidebar .nav-item-middle {
+  width: 180px;
+  height: 50px;
+  font-size: 12px;
+  color: #4F4F4F;
+}
+
+.sidebar .nav-item-title {
+  font-weight: 600;
+  color: #135F7F;
+  font-size: 14px;
+}
+
+.profile-header {
+  background: #135F7F;
+  height: 95px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+}
+
+.avatar {
+  cursor: pointer;
+  position: absolute;
+  width: 65px;
+  height: 65px;
+  border-radius: 40px;
+  bottom: -20px;
+  border: solid 3px #F99830;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.avatar:hover {
+  -webkit-box-shadow: 0px 0px 5px 0px #656565;
+          box-shadow: 0px 0px 5px 0px #656565;
+}
+
+.user {
+  color: white;
+  padding-top: 10px;
+  font-weight: bold;
+  font-size: 20px;
+  max-width: 90%;
+  right: 0px;
+  white-space: pre;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding-right: 10px;
+}
+
+.filter {
+  font-size: 10px;
+  width: 95px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.filter.active {
+  background: #135F7F;
+}
+
+.mat-badge-content {
+  right: 0px !important;
+  top: -8px !important;
+  background: #F99830;
+}
+
+.noResult {
+  position: absolute;
+  top: 50%;
+  text-align: center;
+  width: 100%;
+  opacity: 0.5;
+}
+
+.noDoc .mat-badge-content {
+  background: #ddd;
+}
+
+.sub-label {
+  font-size: 11px;
+  --color: var(--ion-color-medium);
+}
+
+ion-item.selected {
+  --background: rgba(var(--ion-color-primary-rgb), 0.2);
+}
+
+.doc-item {
+  --inner-padding-bottom: 10px;
+  --inner-padding-top: 10px;
+}
+
+.filters ion-badge {
+  position: absolute;
+  top: 10px;
+  right: 0px;
+  color: white;
+}
+
+.avatar-user {
+  cursor: pointer;
+  position: absolute;
+  z-index: 99;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  top: 60px;
+  border: solid var(--ion-color-secondary);
+  width: 71px;
+  height: 71px;
+}
+
+.groupMailIcon {
+  position: absolute;
+  left: 40px;
+  font-size: 14px;
+  bottom: 10px;
+}
+
+.segment-button-notFocused {
+  --indicator-color: none;
+}
+/*# sourceMappingURL=sidebar.component.css.map */

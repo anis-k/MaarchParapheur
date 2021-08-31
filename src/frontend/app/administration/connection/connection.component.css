@@ -1,0 +1,23 @@
+.admin-desc {
+  white-space: normal;
+  font-size: 10px;
+  line-height: 15px;
+  text-align: justify;
+  color: gray;
+  height: 60px;
+  overflow: auto;
+}
+
+.admin-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+/*# sourceMappingURL=connection.component.css.map */

@@ -1,0 +1,146 @@
+.secondary {
+  color: var(--ion-color-secondary);
+}
+
+.signatures {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.signatures-top {
+  height: 105px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  border-bottom: 1px solid #e9e8e8;
+}
+
+.signatures .list {
+  width: 100%;
+  padding-top: 40px;
+  overflow: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+}
+
+.signatures .list-item {
+  -webkit-transition: 0.3s all ease-in-out;
+  transition: 0.3s all ease-in-out;
+  height: 190px;
+  width: 190px;
+  margin: 8px;
+  border: 1px solid rgba(151, 151, 151, 0.55);
+  border-radius: 5px;
+  background-color: #fff;
+  -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.04);
+          box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.04);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.signatures .list-item .substituteInfo {
+  color: #F99830;
+  font-size: 10px;
+  position: absolute;
+  top: 0px;
+  left: 10px;
+}
+
+.signatures .list-item.create {
+  background-color: #F1F4F4;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+}
+
+.signatures .list-item:hover, .signatures .list-item:active {
+  -webkit-transform: translateY(-20px);
+          transform: translateY(-20px);
+  cursor: pointer;
+}
+
+.sign_icon {
+  position: absolute;
+  top: 5px;
+}
+
+.sign_icon .mat-icon {
+  color: white;
+  height: auto;
+}
+
+.add_icon {
+  right: 5px;
+}
+
+.remove_icon {
+  left: 5px;
+}
+
+.sign-image {
+  height: 95%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.certified-msg {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 40px;
+}
+
+.certified-msg div {
+  font-size: 30px;
+  color: var(--ion-color-medium);
+}
+/*# sourceMappingURL=signatures.component.css.map */

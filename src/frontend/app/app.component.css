@@ -1,0 +1,30 @@
+.left-menu {
+  --width: 350px;
+  --min-width: 350px;
+  --max-width: 350px;
+}
+
+.right-menu {
+  --width: 450px;
+  --min-width: 450px;
+  --max-width: 450px;
+}
+
+.right-menu-responsive {
+  --width: 89%;
+  --min-width: 89%;
+  --max-width: 89%;
+}
+
+.split-pane-visible > .left-menu {
+  width: 350px !important;
+  --max-width: 350px !important;
+  --min-width: 350px !important;
+}
+
+.split-pane-visible > .right-menu {
+  width: 450px !important;
+  --max-width: 450px !important;
+  --min-width: 450px !important;
+}
+/*# sourceMappingURL=app.component.css.map */

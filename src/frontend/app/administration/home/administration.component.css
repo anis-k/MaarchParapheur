@@ -1,0 +1,88 @@
+.container {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  overflow: auto;
+}
+
+.container .admin-item {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  width: 100%;
+  display: inline-block;
+}
+
+@media (min-width: 768px) {
+  .container .admin-item {
+    width: 50%;
+  }
+}
+
+@media (min-width: 992px) {
+  .container .admin-item {
+    width: 33%;
+  }
+}
+
+.container .admin-item .mat-stroked-button {
+  border-color: #F99830;
+  padding: 10px;
+  width: 90%;
+  height: 160px;
+}
+
+.container .admin-item .mat-stroked-button mat-icon {
+  height: auto;
+  width: auto;
+  font-size: 50px;
+}
+
+.container .admin-item .mat-stroked-button ::ng-deep.mat-button-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.admin-desc {
+  white-space: normal;
+  font-size: 10px;
+  line-height: 15px;
+  text-align: justify;
+  color: gray;
+  height: 60px;
+  overflow: auto;
+}
+
+.admin-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.repeatRows {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
+}
+
+.repeatRowsMobile {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(200px, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  -ms-grid-row-align: 10px;
+}
+/*# sourceMappingURL=administration.component.css.map */

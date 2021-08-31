@@ -1,0 +1,41 @@
+.privilegesList {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: inline-block;
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .privilegesList {
+    width: 50%;
+  }
+}
+
+@media (min-width: 992px) {
+  .privilegesList {
+    width: 33%;
+  }
+}
+
+fieldset {
+  border: solid 1px #F1F4F4;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 30px;
+}
+
+legend {
+  color: #F99830;
+}
+
+.grid-2-col {
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-3-col {
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+}
+/*# sourceMappingURL=group.component.css.map */

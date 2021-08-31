@@ -1,0 +1,35 @@
+.alert-message {
+  margin: 20px 0;
+  padding: 10px;
+  border-left: 3px solid #eee;
+  font-size: 14px;
+  text-align: justify;
+}
+
+.alert-message p {
+  padding: 0;
+}
+
+.alert-message-success {
+  background-color: #F4FDF0;
+  border-color: #2ECC71;
+  color: #25a25a;
+}
+
+.alert-message-danger {
+  background-color: #8e3e521a;
+  border-color: #e74c3c;
+  color: #d62c1a;
+}
+
+.alert-message-info {
+  background-color: #f4f8fa;
+  border-color: #135F7F;
+  color: #0c3e53;
+}
+
+.alert-message-default {
+  background-color: #EEE;
+  border-color: #B4B4B4;
+}
+/*# sourceMappingURL=maarch-material-alert.css.map */

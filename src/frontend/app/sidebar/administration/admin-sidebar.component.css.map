@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,YAAY,CAAC;EACT,WAAW,EAAE,KAAK,CAAC,GAAG,CAAC,wBAAwB;EAC/C,YAAY,CAAA,yCAAC;EACb,KAAK,EAAE,wBAAwB;EAC/B,WAAW,EAAE,IAAI;CACpB",
+    "sources": [
+        "admin-sidebar.component.scss"
+    ],
+    "names": [],
+    "file": "admin-sidebar.component.css"
+}

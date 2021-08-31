@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "customization.component.scss"
+    ],
+    "names": [],
+    "file": "customization.component.css"
+}

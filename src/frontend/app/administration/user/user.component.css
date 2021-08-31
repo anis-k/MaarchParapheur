@@ -1,0 +1,22 @@
+.no-result {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.no-result .item {
+  width: 100%;
+  text-align: center;
+}
+
+.no-result-label {
+  font-size: 30px;
+}
+/*# sourceMappingURL=user.component.css.map */

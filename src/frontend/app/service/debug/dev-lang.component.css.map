@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,mBAAmB,CAAC;EAChB,WAAW,EAAE,GAAG;CACnB;;AAED,AACI,eADW,CACX,SAAS,AAAA,eAAe,CAAC;EACrB,QAAQ,EAAE,MAAM;EAChB,GAAG,EAAE,GAAG;EACR,OAAO,EAAE,CAAC;CACb;;AALL,AAOI,eAPW,CAOX,SAAS,AAAA,wBAAwB,CAAC;EAC9B,UAAU,EAAE,KAAK;CACpB",
+    "sources": [
+        "dev-lang.component.scss"
+    ],
+    "names": [],
+    "file": "dev-lang.component.css"
+}

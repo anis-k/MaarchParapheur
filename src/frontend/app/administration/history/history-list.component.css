@@ -1,0 +1,51 @@
+.flex1 {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.flex2 {
+  -webkit-box-flex: 2;
+      -ms-flex: 2;
+          flex: 2;
+}
+
+.primary {
+  color: var(--ion-color-primary);
+}
+
+::ng-deep .test .alert-wrapper {
+  min-width: 350px;
+}
+
+.canSelect * {
+  user-select: text !important;
+  -webkit-user-select: text !important;
+  -khtml-user-select: text !important;
+  -moz-user-select: text !important;
+  -ms-user-select: text !important;
+}
+
+.scrollfilters {
+  overflow: auto;
+  white-space: nowrap;
+  height: 50%;
+}
+
+.scrollfilters ion-chip {
+  height: auto;
+  margin: 4px;
+  display: inline-block;
+}
+
+ion-button.clearFilter {
+  position: -webkit-sticky;
+  position: sticky;
+  left: 0;
+  z-index: 1;
+}
+
+ion-chip {
+  background-color: white;
+}
+/*# sourceMappingURL=history-list.component.css.map */

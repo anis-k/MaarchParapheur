@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,SAAS,AAAA,gBAAgB,CAAC;EACtB,UAAU,EAAG,eAAe;EAC5B,KAAK,EAAE,KAAK;CACf",
+    "sources": [
+        "dev-tool.component.scss"
+    ],
+    "names": [],
+    "file": "dev-tool.component.css"
+}

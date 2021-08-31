@@ -1,0 +1,115 @@
+.testSendTo {
+  width: 95%;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.bash {
+  background: #34495e;
+  height: 310px;
+  border-radius: 5px;
+  top: 40px;
+  display: absolute;
+  color: #fff;
+  padding: 10px;
+  margin: 10px;
+  word-wrap: break-word;
+}
+
+.panel-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: relative;
+  height: 100%;
+  overflow: hidden;
+}
+
+.panel-header {
+  -webkit-box-shadow: 0px 0px 10px 0px #656565;
+          box-shadow: 0px 0px 10px 0px #656565;
+  color: white;
+  background: #135F7F;
+  height: 95px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+  font-size: 25px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.panel-content {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  overflow: auto;
+}
+
+.cancel {
+  position: absolute;
+  top: 10px;
+  left: 0px;
+  height: 65px;
+  width: 65px;
+  font-size: 35px;
+  color: white;
+}
+
+.auth-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.auth-container .auth-1 {
+  width: 100px;
+  padding-right: 10px;
+}
+
+.auth-container .auth-2 {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.auth-container .auth-3 {
+  width: 50px;
+  padding-left: 10px;
+}
+
+@media (max-width: 360px) {
+  .auth-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .auth-container .auth-1 {
+    width: 100%;
+    padding-right: 0px;
+  }
+  .auth-container .auth-2 {
+    width: 100%;
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+  }
+  .auth-container .auth-3 {
+    width: 100%;
+    padding-left: 0px;
+  }
+}
+/*# sourceMappingURL=sendmail.component.css.map */

@@ -1,0 +1,7 @@
+.item-active {
+  border-left: solid 5px var(--ion-color-primary);
+  --background: rgba(var(--ion-color-primary-rgb), 0.14);
+  color: var(--ion-color-primary);
+  font-weight: bold;
+}
+/*# sourceMappingURL=admin-sidebar.component.css.map */

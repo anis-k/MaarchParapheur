@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "ldap.component.scss"
+    ],
+    "names": [],
+    "file": "ldap.component.css"
+}

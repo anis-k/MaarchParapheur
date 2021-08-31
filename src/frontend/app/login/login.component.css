@@ -1,0 +1,35 @@
+.version-info {
+  color: white;
+  position: absolute;
+  bottom: 5px;
+}
+
+.maarchLogo {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  width: 250px;
+  height: auto;
+  padding-bottom: 10px;
+}
+
+.login-content {
+  --background: var(--ion-color-primary);
+}
+
+.forgot-password {
+  display: block;
+  text-align: right;
+}
+
+.connection-type {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+/*# sourceMappingURL=login.component.css.map */

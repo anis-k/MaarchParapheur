@@ -1,0 +1,35 @@
+.modalContent {
+  position: relative;
+}
+
+.mat-dialog-content, .mat-dialog-title {
+  text-align: center !important;
+}
+
+.mat-dialog-title {
+  color: #F5A623;
+  font-weight: bold;
+}
+
+.actions {
+  width: 100%;
+  margin: 10px;
+}
+
+.close {
+  position: absolute;
+  top: -15px;
+  right: -15px;
+  width: 40px;
+  height: 40px;
+  font-size: 20px;
+  color: #666;
+}
+
+.note {
+  border-radius: 4px;
+  border: solid 1px #135F7F;
+  height: 100px;
+  resize: none;
+}
+/*# sourceMappingURL=warn-modal.component.css.map */

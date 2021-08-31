@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "groups-list.component.scss"
+    ],
+    "names": [],
+    "file": "groups-list.component.css"
+}

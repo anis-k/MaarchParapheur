@@ -1,0 +1,225 @@
+.sidebar {
+  position: relative;
+  height: 100%;
+  overflow: auto;
+}
+
+.sidebar-header {
+  background: #F1F4F4;
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 14px;
+  font-weight: 600;
+  padding-top: 10px;
+}
+
+.sidebar-header-icon {
+  margin-right: 15px;
+  position: relative;
+}
+
+.sidebar-header-icon.notification:after {
+  position: absolute;
+  right: -5px;
+  top: -5px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #e74c3c;
+  content: "";
+}
+
+.sidebar-header-subtitle {
+  color: #9B9B9B;
+}
+
+.sidebar-btn {
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.sidebar .nav {
+  margin-top: 0px;
+}
+
+.profile-header {
+  background: #135F7F;
+  height: 95px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+}
+
+.user {
+  color: white;
+  color: #F99830;
+  position: absolute;
+  top: 15px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.input-row {
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.profile-content {
+  padding: 10px;
+  text-align: center;
+}
+
+/*.actions {
+  position: absolute;
+  top: 0;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  z-index: 1;
+}*/
+.actions button {
+  padding: 10px;
+  margin: 10px;
+  color: white;
+  font-size: 20px;
+}
+
+.actions .cancel {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 65px;
+  width: 65px;
+  font-size: 35px;
+}
+
+.actions .validate {
+  position: absolute;
+  top: 10px;
+  right: 0px;
+  font-size: 20px;
+}
+
+canvas {
+  background-color: #F1F4F4;
+}
+
+fieldset {
+  border: solid 1px #F1F4F4;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+legend {
+  color: #F99830;
+}
+
+.form-container {
+  display: table;
+  width: 100%;
+}
+
+.form-2-col {
+  display: table-cell;
+  width: 50%;
+  vertical-align: middle;
+}
+
+.form-col {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.notification {
+  text-align: left;
+  padding: 10px;
+}
+
+.panel-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: relative;
+  height: 100%;
+  overflow: hidden;
+}
+
+.panel-header {
+  -webkit-box-shadow: 0px 0px 10px 0px #656565;
+          box-shadow: 0px 0px 10px 0px #656565;
+  color: white;
+  background: #135F7F;
+  height: 95px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+  font-size: 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.panel-content {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  overflow: auto;
+}
+
+.mat-icon {
+  height: auto;
+}
+
+.selected {
+  border: solid #F99830;
+}
+
+.selectedSubstitute {
+  width: 100%;
+}
+
+.selectedSubstitute ::ng-deep.mat-input-element {
+  cursor: default;
+}
+
+.selectedSubstitute ::ng-deep.mat-form-field-suffix {
+  top: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.showpassButton {
+  --background: none;
+  --box-shadow: none;
+}
+/*# sourceMappingURL=profile.component.css.map */

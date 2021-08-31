@@ -1,0 +1,71 @@
+.current {
+  border-left: solid 5px var(--ion-color-success);
+}
+
+.primary {
+  color: var(--ion-color-primary);
+}
+
+.secondary {
+  color: var(--ion-color-secondary);
+}
+
+.success {
+  color: var(--ion-color-success);
+}
+
+.danger {
+  color: var(--ion-color-danger);
+}
+
+.avatar-user {
+  width: 50px;
+  height: 50px;
+  border: solid var(--ion-color-secondary);
+}
+
+ion-select {
+  font-size: 12px;
+}
+
+.no-ripple {
+  --ripple-color: transparent;
+}
+
+.select-disabled,
+.item-select-disabled ion-label {
+  opacity: 1;
+}
+
+.item-select-disabled ion-select::part(icon) {
+  display: none !important;
+}
+
+.valProcess {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  font-size: 12px;
+  text-align: right;
+  color: var(--ion-color-success);
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.refProcess, .stopProcess {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  font-size: 12px;
+  text-align: right;
+  color: var(--ion-color-danger);
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+/*# sourceMappingURL=visa-workflow.component.css.map */

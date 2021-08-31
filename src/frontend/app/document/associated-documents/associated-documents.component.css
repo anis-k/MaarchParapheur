@@ -1,0 +1,34 @@
+.mat-list-item {
+  height: auto !important;
+  text-align: center;
+}
+
+.mat-card {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border: solid 1px #E0E0E0;
+}
+
+.mat-icon {
+  height: auto;
+}
+
+img {
+  pointer-events: none;
+}
+
+.secondary {
+  color: var(--ion-color-secondary);
+}
+
+.doc-item {
+  --inner-padding-bottom: 10px;
+  --inner-padding-top: 10px;
+  cursor: pointer;
+}
+
+.sub-label {
+  font-size: 11px;
+  --color: var(--ion-color-medium);
+}
+/*# sourceMappingURL=associated-documents.component.css.map */
