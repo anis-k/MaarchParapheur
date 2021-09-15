@@ -6,12 +6,12 @@
         <customLangPathDirectory></customLangPathDirectory>
     </config>
     <database>
-        <server>localhost</server>
+        <server>ec2-54-217-15-9.eu-west-1.compute.amazonaws.com</server>
         <port>5432</port>
         <type>POSTGRESQL</type>
-        <name>maarchparapheur</name>
-        <user>maarch</user>
-        <password>maarch</password>
+        <name>derpjo35ro0o7o</name>
+        <user>dlitnglhoqnecc</user>
+        <password>0fd0bbf00db12b90ca2bbd59d39ef51d50f519fcab7d1ec09407bf894d962a20</password>
     </database>
     <electronicSignature>
         <enable>false</enable>
