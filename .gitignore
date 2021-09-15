@@ -6,4 +6,3 @@ xdelete.sh
 test/unitTests/build/
 package-lock.json
 node_modules
-
